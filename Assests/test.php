@@ -15,7 +15,7 @@ $box = array('','','','','','','','','');
 
 // isset - detetminr if a var is declared and is diff than null 
 // isset to _POST[gobtn] is an http var to stop the game from running since it ended 
-if (isset($_POST["gobtn"]))
+if (isset($_POST["game"]))
 	{
 		// POST is http post variables in order to have assigned boxes
 		$box[0] = $_POST["box0"];
@@ -114,7 +114,7 @@ if (isset($_POST["gobtn"]))
 		// frontend, next move btn 
 			if($winner == 'n')
 			{
-				print('<input type = "submit" name = "gobtn" value = "Next Move" id = "go">');
+				print('<input type = "submit" name = "game" value = "Next Move" id = "go">');
 			}
 			else
 			{
