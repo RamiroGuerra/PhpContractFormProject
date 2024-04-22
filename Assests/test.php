@@ -1,17 +1,8 @@
-
-
 <?php
-// this is a php Tryit ?php
-
 // winner is set to n initially until x or o 
 $winner = 'n';
-
 // an array box with empty chars for x or o to take the place instead
 $box = array('','','','','','','','','');
-
-// condition of winning is having x or o in these boxes
-// (0,1,2),(3,4,5),(6,7,8) [horizontal case] or (0,3,6),(1,4,7),(2,5,8) [vertical case] 
-// or (0,4,8), (2,4,6)[diagonal case] 
 
 // isset - detetminr if a var is declared and is diff than null 
 // isset to _POST[gobtn] is an http var to stop the game from running since it ended 

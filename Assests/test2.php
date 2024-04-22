@@ -22,6 +22,14 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        #go{
+		 
+         width: 10px;
+         height: 5px;
+         margin-top: 5px;
+         padding: 10px;
+         border-radius: 50px;
+     }
     </style>
 </head>
 <body>
@@ -42,6 +50,8 @@
 
             // Output the random quote
             echo "<p>" . $randomQuote . "</p>";
+            print('<input type = "button" id = "go"  onclick = "window.location.href=\'test2.php\'">');
+
         ?>
     </div>
 </body>
