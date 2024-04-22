@@ -33,6 +33,7 @@ if (isset($_POST["game"]))
 		{
 			$winner = 'x';
 			Print "<h1>X Wins!</h1>";
+			 
 		}
 
 		// if any of the boxes are empty blank = 1
