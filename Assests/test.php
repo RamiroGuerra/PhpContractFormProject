@@ -25,7 +25,6 @@ if (isset($_POST["game"]))
 			$winner = 'x';
 			Print "<h1>X Wins!</h1>";
 		}
-
 		// if any of the boxes are empty blank = 1
 		$blank = 0;
 		for ($i = 0; $i <= 8 ; $i++)
@@ -63,7 +62,6 @@ if (isset($_POST["game"]))
 ?>
 <html>
 <head>
-	<title>Tic Tac Toe</title>
 	<style>
 	body {
 		background-color: brown;
